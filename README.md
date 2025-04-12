@@ -46,15 +46,19 @@ countDescendants root/c/f
 
 ## 🏃‍♂️ How to Run
 
-1. Clone the repo:
+1. Clone the repo
+```
+git clone https://github.com/SidSingh11702/mini-fs.git
+cd mini-fs
+```
 
-```bash
-git clone https://github.com/SidSingh11702/filesystem-simulator.git
-cd filesystem-simulator
+2. Compile
 
-g++ -std=c++17 main.cpp -o fs_sim
+```
+g++ -std=c++17 main.cpp -o mini_fs
+```
 
-
-countDescendants root/s
-cutPaste root/s root/x
-copyPaste root/x root/s
+3. Run
+```
+./mini_fs
+```
